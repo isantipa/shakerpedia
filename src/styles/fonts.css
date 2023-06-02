@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'bartender';
+    src: url('../fonts/Boldistrike.ttf') format('ttf');
+
+  }
+  
+  body {
+    font-family: 'bartender', sans-serif;
+  }
+  

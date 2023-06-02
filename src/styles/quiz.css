@@ -1,0 +1,71 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quiz-container h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+  
+.cocktail-ingredients {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 15px;
+    width: auto;
+    margin: 25px;
+    border: #f2e06c90 1px solid;
+    background-color: rgba(255, 255, 255, 0.056);
+}
+  
+.cocktail-ingredients li {
+    text-align: center;
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px;
+}
+  
+.cocktail-options {
+    display: flex;
+    justify-content: center;
+}
+  
+.cocktail-options button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 3%;
+    border: none;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.cocktail-options button:hover{
+    cursor: pointer;
+}
+
+.cocktail-options button[disabled] {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.message {
+    margin: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.new-game {
+    padding: 5px;
+    border-radius: 3%;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.new-game:hover {
+    cursor: pointer;
+}

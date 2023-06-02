@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+}
+.header .logo{
+    font-size: 4.5em;
+    display: block;
+    margin: 0 auto;
+}
+.header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+}
+.header li{
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+.header li:hover{
+    text-decoration: underline 1px solid black;
+    cursor: pointer;
+}

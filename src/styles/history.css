@@ -1,0 +1,25 @@
+.history-container {
+    width: 95%;
+    margin: 1em auto;
+    border: 1px black solid;
+    padding: 0 0.7em;
+}
+.history-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    margin: 0.3em auto;
+}
+.history-container p {
+    margin: 0 1em;
+    padding-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+    .history-container {
+      width: 90%;
+      float: none; /* Elimina el posicionamiento flotante en pantallas más pequeñas */
+      margin: 1em auto; 
+    }
+}
+
+

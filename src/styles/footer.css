@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    margin-top: 2em; 
+    clear: both; /* Limpia los flotantes anteriores */
+  }
+.legal-container {
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0 8em;
+}
+.rrss-container {
+    display: flex;
+    justify-content: center;
+}  
+.rrss-container img {
+    width: 1.7em;
+    margin-left: 1em;
+} 
+.rrss-container img:hover {
+    /* Estilos de hover */
+}

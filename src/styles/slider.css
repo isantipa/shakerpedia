@@ -1,0 +1,80 @@
+#slider li:not(:first-child) {
+    display: none;
+}
+  
+#slider li.active .text-container {
+    display: block;
+}
+  
+ #slider img {
+    position: relative;
+    width: 80%;
+    height: 437px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+  
+#slider .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.578);
+    backdrop-filter: blur(7px);
+    color: white;
+    text-align: center;
+}
+  
+#slider .text-container h2 {
+    font-size: 3vw;
+}
+  
+#slider .text-container p {
+    font-size: 2vw;
+}
+  
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#prev-slide,
+#next-slide {
+    margin: 0 2em;
+    width: 6em;
+    height: 2.5em;
+    border-radius: 40px;
+    font-weight: 900;
+    border: none;
+}
+  
+#prev-slide:hover,
+#next-slide:hover {
+    cursor: pointer;
+}
+  
+
+@media screen and (max-width: 600px) {
+    #slider .text-container {
+      bottom: 0;
+      left: 55%;
+      transform: translateX(-50%);
+      max-width: 90%;
+
+    }
+  
+    #slider .text-container h2 {
+      font-size: 4vw;
+    }
+  
+    #slider .text-container p {
+      font-size: 3.3vw;
+    }
+}
+  

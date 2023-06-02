@@ -1,0 +1,106 @@
+.alphabet-box {
+    text-align: center;
+    border: solid 1px black;
+    margin: 1em 1em;
+    padding: 0.5em 0;
+} 
+.alphabet-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+.alphabet-box li {
+    display: inline-block;
+    margin-right: 0.7em;
+}
+.alphabet-box button {
+    width: 1.7em;
+}
+
+.letter-container {
+    text-align: center;
+    border: solid 1px black;
+    margin: 1em 1em;
+    padding: 0.5em 0;
+}
+.letter-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.letter-container li {
+    display: inline-block;
+    margin-right: 0.7em;
+}
+
+.coktail-container {
+    display: flex;
+    justify-content: center;
+}
+
+.searchname-container {
+    border: solid 1px black;
+    margin: 1em 1em;
+    padding: 0.5em 0;
+    width: 300px;
+}
+.searchname-container h2 {
+    margin: 0 0.7em 0.7em;
+    text-align: center;
+}
+.searchname-container input {
+    margin: 0 2.6em 0.7em;
+}
+
+.searchingredient-container {
+    border: solid 1px black;
+    margin: 1em 1em;
+    padding: 0.5em 0;
+    width: 300px;
+}
+.searchingredient-container h2 {
+    margin: 0 0.7em 0.7em;
+    text-align: center;
+}
+.searchingredient-container input{
+    margin: 0 2.6em 0.7em;
+}
+
+#cocktail-box {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: black 1px solid;
+    margin: 1em auto;
+    padding: 1em;
+    width: 300px;
+    height: auto;
+}
+#cocktail-box h4{
+    text-align: center ;
+    font-size: 25px;
+    margin: 0;
+}
+#cocktail-box img{
+    height: 225px;
+    width: 90%;
+    margin: 1em auto;
+    object-fit: cover;
+    display: block;
+}
+#cocktail-box ul{
+    list-style: none;
+    margin: 0;
+}
+#cocktail-box li{
+    margin: 0 1em;
+}
+#cocktail-box .favorite-button {
+    width: 40px ;
+    height: 40px ;
+    margin: 0;
+}
+#cocktail-box .favorite-button:hover {
+    width: 45px ;
+    height: 45px ;
+}
