@@ -7,7 +7,7 @@ import FavoritesPage from './pages/FavoritesPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path='/library' element={<LibraryPage />} />
