@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Shaker-Pedia/static/css/main.2c414219.css",
-    "main.js": "/Shaker-Pedia/static/js/main.dcd3a1ff.js",
-    "static/js/787.328e4803.chunk.js": "/Shaker-Pedia/static/js/787.328e4803.chunk.js",
-    "static/media/shaker.jpeg": "/Shaker-Pedia/static/media/shaker.99204c904625f813e885.jpeg",
-    "static/media/library.jpeg": "/Shaker-Pedia/static/media/library.515af814c37685ae27fc.jpeg",
-    "static/media/quiz.jpg": "/Shaker-Pedia/static/media/quiz.ecfdf4aac10dd97d3a46.jpg",
-    "static/media/cocktail.jpeg": "/Shaker-Pedia/static/media/cocktail.9e08bad2fe6a3ad04016.jpeg",
-    "static/media/maillogo.png": "/Shaker-Pedia/static/media/maillogo.1b82ca4bb7584c98e9ea.png",
-    "static/media/linkedinlogo.png": "/Shaker-Pedia/static/media/linkedinlogo.b50683f8779235855930.png",
-    "static/media/star2.png": "/Shaker-Pedia/static/media/star2.04481b356889efa226af.png",
-    "index.html": "/Shaker-Pedia/index.html",
-    "main.2c414219.css.map": "/Shaker-Pedia/static/css/main.2c414219.css.map",
-    "main.dcd3a1ff.js.map": "/Shaker-Pedia/static/js/main.dcd3a1ff.js.map",
-    "787.328e4803.chunk.js.map": "/Shaker-Pedia/static/js/787.328e4803.chunk.js.map"
+    "main.css": "/shakerpedia/static/css/main.2c414219.css",
+    "main.js": "/shakerpedia/static/js/main.649fc61f.js",
+    "static/js/787.328e4803.chunk.js": "/shakerpedia/static/js/787.328e4803.chunk.js",
+    "static/media/shaker.jpeg": "/shakerpedia/static/media/shaker.99204c904625f813e885.jpeg",
+    "static/media/library.jpeg": "/shakerpedia/static/media/library.515af814c37685ae27fc.jpeg",
+    "static/media/quiz.jpg": "/shakerpedia/static/media/quiz.ecfdf4aac10dd97d3a46.jpg",
+    "static/media/cocktail.jpeg": "/shakerpedia/static/media/cocktail.9e08bad2fe6a3ad04016.jpeg",
+    "static/media/maillogo.png": "/shakerpedia/static/media/maillogo.1b82ca4bb7584c98e9ea.png",
+    "static/media/linkedinlogo.png": "/shakerpedia/static/media/linkedinlogo.b50683f8779235855930.png",
+    "static/media/star2.png": "/shakerpedia/static/media/star2.04481b356889efa226af.png",
+    "index.html": "/shakerpedia/index.html",
+    "main.2c414219.css.map": "/shakerpedia/static/css/main.2c414219.css.map",
+    "main.649fc61f.js.map": "/shakerpedia/static/js/main.649fc61f.js.map",
+    "787.328e4803.chunk.js.map": "/shakerpedia/static/js/787.328e4803.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c414219.css",
-    "static/js/main.dcd3a1ff.js"
+    "static/js/main.649fc61f.js"
   ]
 }
